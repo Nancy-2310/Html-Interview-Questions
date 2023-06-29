@@ -1,0 +1,260 @@
+Q.1 <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+
+Ans: Yes, <!DOCTYPE html> is indeed a tag used in HTML. It is known as the Document Type Declaration or Document Type Definition (DTD).
+The <!DOCTYPE html> tag is placed at the very beginning of an HTML document to define the version of HTML being used. It informs the 
+web browser about the type of document it is parsing and helps ensure proper rendering of the web page.
+In HTML5, the <!DOCTYPE html> declaration is used to indicate that the document is written in HTML5. This doctype declaration is
+relatively simple compared to earlier versions of HTML, which had more complex doctype declarations.
+The purpose of the doctype declaration is to provide the web browser with information about the markup language being used, so that it
+can interpret and render the page correctly. It helps the browser determine the appropriate parsing and rendering mode to use.
+By including the <!DOCTYPE html> declaration at the beginning of an HTML document, you ensure that the web page is treated as an HTML 
+document and not something else (like an XML document, for example). It helps ensure consistency and compatibility across different web 
+browsers and versions.
+
+Q.2 Explain Semantic tags in html? And why do we need it?
+
+Ans:Semantic tags in HTML are elements that carry meaning or describe the structure and content of the web page. They provide additional 
+context and help define the purpose of different sections or elements within the document. Semantic tags are designed to improve the accessibility,
+search engine optimization (SEO), and overall understanding of the page by both humans and machines.
+
+Here are some commonly used semantic tags in HTML5:
+
+1.<header>: Represents the introductory or navigational section of a page.
+2.<nav>: Represents a section containing navigation links.
+3.<main>: Represents the main content area of the page.
+4.<article>: Represents a self-contained composition within a document, such as a blog post or news article.
+5.<section>: Represents a thematic grouping of content.
+6.<aside>: Represents content that is tangentially related to the main content, such as sidebars or pull quotes.
+7.<footer>: Represents the footer of a page or a section.
+
+By using semantic tags, you provide a more meaningful structure to your HTML document. This benefits both developers and users in several ways:
+
+1.Accessibility: Semantic tags help screen readers and assistive technologies better understand the structure of the page, allowing visually impaired 
+users to navigate and comprehend the content more easily.
+2.SEO: Search engines rely on the structure and meaning of HTML elements to understand the content of a page. Semantic tags provide additional information 
+to search engines, potentially improving the page's visibility and ranking in search results.
+3.Readability and Maintainability: Semantic tags make the code more readable and self-explanatory, making it easier for developers to understand and 
+maintain the website.
+4.Future Compatibility: As HTML evolves and new elements are introduced, semantic tags help ensure backward compatibility by clearly indicating the 
+purpose of different sections, even if the rendering or behavior of those elements changes.
+
+Q.3 Differentiate between HTML Tags and Elements?
+
+Ans:HTML Tags:
+HTML tags are the building blocks of HTML documents. They are used to define the structure and appearance of the content within the document. Tags are
+represented by angle brackets < > and usually come in pairs: an opening tag and a closing tag. The opening tag denotes the beginning of an element,
+and the closing tag denotes its end.
+
+For example:
+<p>This is a paragraph.</p>
+In the above example, <p> is the opening tag, and </p> is the closing tag. The content between the opening and closing tags is referred to as the element's content.
+HTML tags can also be self-closing, meaning they don't require a closing tag. For instance, the <img> tag to display an image:
+<img src="image.jpg" alt="Image description">
+
+HTML Elements:
+HTML elements are made up of HTML tags, their attributes, and the content between the opening and closing tags. An HTML element is a complete unit that encompasses 
+the opening tag, content, and closing tag.
+For example:<p>This is a paragraph.</p>
+In this case, <p> is the opening tag, This is a paragraph. is the content, and </p> is the closing tag. Together, they form the <p> element.
+
+In summary, HTML tags are the individual markers that define the beginning and end of an element, while HTML elements consist of the opening and closing tags, along 
+with the content within them. Elements are the complete units that make up the structure of an HTML document.
+
+Q.4 Build Your Resume using HTML only.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+</head>
+<body>
+    <h1>Nancy Gautam</h1>
+    <h2>Web Developer</h2>
+
+    <h2>Contact Info</h2>
+    <p>Email: gautamnancy324@gmail.com</p>
+    <p>Phone: 9466709072</p>
+
+    <h2>Summary</h2>
+    <p>Experienced web developer with a strong background in HTML, CSS, and JavaScript. Skilled in creating responsive and user-friendly websites.</p>
+
+    <h2>Projects</h2>
+    <ul>
+    <li>Build a pdf making website</li>
+    <li>Build a responsive Blood Bank Locator website</li>
+    <li>Collaborated with a team of designers and developers to implement new features.</li>
+    </ul>
+
+    <h2>Experience</h2>
+    <ul>
+    <li>Optimized website performance and conducted cross-browser testing.</li>
+    <li>Assisted in front-end development tasks, including HTML and CSS coding.</li>
+    <li>Worked on website redesign projects, improving user experience and visual appeal.</li>
+    </ul>
+    
+    <h2>Education</h2>
+    <h4>Bachelor of Science in Computer Science - YMCA University</h4>
+    <p><em>2021-2025</em></p>
+
+</body>
+</html>
+
+Q.5 Write HTML code so that it looks like the below image.
+https://pwskills.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5d76dcda-d8eb-4c2e-836d-5c1aee0f8c6d%2Fhtml.png?id=9eae56b9-1968-40e8-98e1-b745e9e0a4ea&table=block&spaceId=6fae2e0f-dedc-48e9-bc59-af2654c78209&width=2000&userId=&cache=v2
+Ans:<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://media.istockphoto.com/id/613241758/photo/young-woman-working-on-a-laptop.jpg?s=170667a&w=0&k=20&c=D5_CUvZB7ULlEd5GwWUTKzS7URRNvspjrsEdCUAJFSE=" alt="">
+    <p>We will be learning the following things this week:</p>
+    <table>
+        <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+        </tr>
+        <tr>
+            <td>Linux 1</td>
+            <td>HTML</td>
+            <td>Linux 2</td>
+            <td>Linux 3</td>
+        </tr>
+        <tr>
+            <td>Git 1</td>
+            <td>CSS</td>
+            <td>Git 2</td>
+            <td>Bootstrap</td>
+        </tr>
+    </table>
+
+    If you want to contact me, please fill in this form:<br>
+    <br>
+    <label for="name">Name</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="phone">Phone no:</label>
+    <input type="text" id="phone">
+    <br>
+    <br>
+    <label for="email">email id:</label>
+    <input type="text" id="email">
+
+    <h2>The following things are important to be a programmer</h2>
+    <ul>
+        <li>A problem solving mindset</li>
+        <li>Consistency
+            <ul>
+                <li>Clean code </li>
+                <li>Through knowledge of core concepts</li>
+                <li>Readable code</li>
+            </ul>
+        </li>
+        <li>Speed</li>
+    </ul>
+</body>
+</html>
+
+Q.6 What are some of the advantages of HTML5 over its previous versions?
+Ans: HTML5, the fifth major version of HTML, introduced several advancements and improvements over its previous versions. Here are some of the advantages of HTML5:
+
+Rich Multimedia Support: HTML5 provides native support for multimedia elements like <audio> and <video>, eliminating the need for third-party plugins like Flash.
+This simplifies the integration of audio and video content and enhances cross-platform compatibility.
+
+Improved Semantics: HTML5 introduced new semantic tags such as <header>, <nav>, <section>, and <article>, which help developers structure web pages more 
+meaningfully. These semantic tags enhance accessibility, improve search engine optimization (SEO), and make the code easier to understand and maintain.
+
+Mobile-Friendly and Responsive Design: HTML5 includes features like responsive image and video elements, as well as the <canvas> element for creating dynamic 
+graphics. These features enable developers to build mobile-friendly and responsive websites that adapt well to different devices and screen sizes.
+
+Enhanced Form Handling: HTML5 introduced new form input types (<input type="date">, <input type="email">, etc.) and attributes (required, pattern, etc.) that
+provide better form validation and user experience. It also introduced the <datalist> element for creating auto-complete dropdowns, making form development more
+robust and user-friendly.
+
+Local Storage: HTML5 introduced the Web Storage API, which allows websites to store data locally on the client's browser. This enables offline capabilities, faster
+load times, and a smoother user experience, as it reduces the need for constant server requests.
+
+Geolocation: HTML5 provides an API for accessing the user's geolocation information. This allows websites to provide location-aware services, personalized content, 
+and location-based functionalities.
+
+Improved Performance and Efficiency: HTML5 introduced several performance optimizations, including asynchronous script loading with the async and defer attributes,
+improved caching mechanisms, and more efficient code structure. These optimizations contribute to faster page load times and better overall performance.
+
+Cross-Platform Compatibility: HTML5 is designed to be compatible with modern web browsers across various platforms, including desktops, laptops, tablets, and mobile 
+devices. This ensures a consistent and reliable user experience across different devices and operating systems.
+
+Q.7 Create a simple Music player using html only.
+Ans:<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Music Player</title>
+</head>
+<body>
+    <audio controls>
+    <source src="path_to_audio_file.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
+
+Q.8 What is the difference between <figure> tag and <img> tag?
+Ans:The <figure> tag and the <img> tag serve different purposes in HTML. Let's discuss the differences between them:
+
+<img> Tag:
+The <img> tag is specifically used to embed an image within an HTML document. It is a self-closing tag and does not require a closing tag. The primary purpose 
+of the <img> tag is to display an image on a web page.
+Example:
+<img src="image.jpg" alt="Image description">
+In the above example, the <img> tag is used to display the image "image.jpg". The src attribute specifies the image source, and the alt attribute provides 
+alternative text for the image.
+
+<figure> Tag:
+The <figure> tag represents self-contained content that is typically referenced in the main flow of the document. It is used to group and semantically represent 
+content such as images, illustrations, diagrams, audio, video, etc., along with optional captions.
+Example:
+<figure>
+  <img src="image.jpg" alt="Image description">
+  <figcaption>Caption for the image</figcaption>
+</figure>
+In the above example, the <figure> tag is used to group an image with its caption. The <img> tag represents the image, while the <figcaption> tag represents the 
+caption associated with the image.
+
+The main difference between the two tags is that the <img> tag is solely used for embedding images, while the <figure> tag is used for grouping and semantically 
+representing content that can include images, along with captions or other related content. 
+
+
+Q.9 What’s the difference between html tag and attribute and give example of some global attributes?
+Ans: The HTML tag and attribute are different components of an HTML element. Here's an explanation of each:
+
+HTML Tag:
+An HTML tag is an element's opening or closing identifier that defines the structure and purpose of the content within an HTML document. Tags are enclosed in angle brackets (< >) and can be either self-closing (e.g., <img>) or have an opening and closing pair (e.g., <p></p>).
+Example:
+<p>This is a paragraph.</p>
+In the above example, the <p> tag is used to define a paragraph element.
+
+HTML Attribute:
+An HTML attribute provides additional information or modifies the behavior of an HTML element. Attributes are placed within the opening tag of an HTML element and consist of a name and a value. They are used to specify characteristics such as source, size, color, or behavior.
+Example:
+
+<img src="image.jpg" alt="Image description">
+In the above example, the src attribute specifies the image source, and the alt attribute provides alternative text for the image.
+
+Global Attributes:
+Global attributes are attributes that can be used on any HTML element. They are not specific to a particular tag and can be applied to various elements. Here are some examples of global attributes:
+
+id: Specifies a unique identifier for an element.
+class: Defines one or more CSS classes to associate with an element.
+style: Specifies inline CSS styles for an element.
+title: Provides additional information or a tooltip text for an element.
+data-*: Allows custom data attributes to be added to elements.
+aria-*: Used for accessibility purposes to provide additional information to assistive technologies.
+Example:
+<div id="myDiv" class="container" style="color: blue;" title="This is a container">
+  <p data-info="12345" aria-hidden="true">Hello, world!</p>
+</div>
+
